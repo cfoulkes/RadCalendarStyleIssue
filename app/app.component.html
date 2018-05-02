@@ -1,0 +1,7 @@
+<GridLayout rows="auto,*">
+    <GridLayout ro="0" columns="*,*">
+        <Button col="0" (tap)="setMonth('Month')" text="Month"></Button>
+        <Button col="1" (tap)="setMonth('month')" text="month"></Button>
+    </GridLayout>
+    <RadCalendar row="1" [monthViewStyle]="monthViewStyle" [viewMode]="viewMode"></RadCalendar>   
+</GridLayout>
